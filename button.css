@@ -1,0 +1,23 @@
+.button {
+  background-image:  radial-gradient(circle, rgba(255,81,131,1) 0%, rgba(199,0,57,1) 79%);
+  border: none;
+  color: white;
+  padding: 50px 45px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-family:Comic Sans MS, Comic Sans, cursive;
+  font-size: 45px;
+  margin: 10px 10px 20px 10px;
+  border-radius: 50%;
+  transition-duration: 0.4s;
+  box-shadow: 0 16px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19),  0 12px #999;
+}
+
+
+
+.button:active {
+  background-color: #C21E56;
+  box-shadow: 0 7px #666;
+  transform: translateY(6px);
+}
